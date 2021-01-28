@@ -1,5 +1,40 @@
+body {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.container {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+
 header nav a {
     text-decoration: none;
+    color: rgb(182, 38, 38);
+}
+
+header nav a:hover {
+    color: gray;
+}
+
+.name-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .gallery {
@@ -21,5 +56,5 @@ img {
 }
 
 @media screen and (max-width: 500px) {
-    
+
 }
