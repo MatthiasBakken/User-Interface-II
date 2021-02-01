@@ -84,6 +84,34 @@ img {
     border-radius: 10px;
 }
 
+footer {
+    height: 100px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(168, 168, 168);
+    text-decoration: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+footer a:hover {
+    color: white;
+    background-color: rgb(182, 38, 38);
+}
+
 
 @media screen and (max-width: 800px) {
     .gallery {
