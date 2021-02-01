@@ -37,6 +37,39 @@ header nav a:hover {
     justify-content: space-between;
 }
 
+.upper-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.upper-content a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.upper-content a:hover {
+    color: rgb(182, 38, 38);
+    font-size: 35px;
+}
+
+.lower-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
 .gallery {
     display: flex;
     justify-content: space-evenly;
@@ -45,14 +78,27 @@ header nav a:hover {
 }
 
 img {
-    height: 300px;
-    width: 200px;
-    margin: 10px;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
     border-radius: 10px;
 }
 
-@media screen and (max-width: 800px) {
 
+@media screen and (max-width: 800px) {
+    .gallery {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    
+    img {
+        height: 300px;
+        width: 200px;
+        margin: 10px;
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width: 500px) {
