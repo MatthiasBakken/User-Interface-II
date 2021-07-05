@@ -1,0 +1,17 @@
+header nav a {
+    text-decoration: none;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
